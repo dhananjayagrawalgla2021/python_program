@@ -1,0 +1,11 @@
+#1st method
+
+st = input("Enter the string ")
+print(len(st))
+
+#2nd method
+
+count = 0
+for i in st:
+    count += 1
+print(count)
