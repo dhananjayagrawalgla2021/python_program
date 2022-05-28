@@ -1,0 +1,5 @@
+dct={'car':600,'cooler price':500,'table price': 800}
+sum=0
+for i  in dct.values():
+    sum= sum+i
+print(sum)
