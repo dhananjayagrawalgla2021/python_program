@@ -1,0 +1,4 @@
+dct={'Name':'Dhananjay','rollno':29,'College name':'Gla university'}
+dct1={'Name1':'Lenovo','rollno2':70,'College name3':'Gla university'}
+dct.update(dct1)
+print(dct)
