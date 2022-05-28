@@ -1,0 +1,3 @@
+dct={'Name':'Dhananjay','rollno':29,'College name':'Gla university'}
+for i in dct:
+    print(i,':',dct[i])
