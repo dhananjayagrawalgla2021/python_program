@@ -1,0 +1,6 @@
+f=open("Origin.txt")
+g=open("Practice.txt", "w")
+    for i in f.readlines():
+        g.write("\n"+i)
+f.close()
+g.close()
