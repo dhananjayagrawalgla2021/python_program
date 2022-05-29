@@ -1,0 +1,7 @@
+with open("1.txt") as f, open("2.txt") as g, open("3.txt", "a") as h:
+    lst1 = f.readlines()
+    lst2 = g.readlines()
+
+    for i in range(len(lst1)):
+        st = lst1[i].strip() + " " + lst2[i].strip()
+        h.write(st+"\n")
