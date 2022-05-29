@@ -1,0 +1,4 @@
+test_tup = (7, 5, 9, 1, 10, 3) 
+print("The original tuple is : " + str(test_tup)) 
+res = sum(list(test_tup))
+print("The sum of all tuple elements are : " + str(res))
